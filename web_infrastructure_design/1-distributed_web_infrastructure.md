@@ -48,9 +48,9 @@ Internet
 | 
 v [ Load Balancer: HAProxy ]
 | (Round Robin)
-+-----------------------+
-    |               | 
-    v               v 
++-------------------+
+|                   | 
+v                   v 
 [ Server 1 ] [ Server 2 ] 
 ├── Nginx (Web Server) 
 ├── Application Server 
