@@ -23,6 +23,7 @@
 
 ## ASCII “whiteboard” diagram
 
+```
 User Browser
     |
     |  DNS Lookup (A record: www.foobar.com -> 8.8.8.8)
@@ -35,6 +36,7 @@ Internet
     ├── Application Server
     ├── Application Files (Code Base)
     └── MySQL Database
+```
 
 ## Issues with this one-server infrastructure
 - **Single Point of Failure (SPOF):** All components are on one machine. If the server fails, the entire website is unavailable.
