@@ -48,7 +48,7 @@ Internet
 | 
 v [ Load Balancer: HAProxy ]
 | (Round Robin)
-+-------------------+
++-----------------------+
     |               | 
     v               v 
 [ Server 1 ] [ Server 2 ] 
