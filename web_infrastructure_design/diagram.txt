@@ -1,0 +1,21 @@
+User Browser
+    |
+    |  DNS Lookup (A record: www.foobar.com -> 8.8.8.8)
+    v
+Internet
+    |
+    v
+[ Server: 8.8.8.8 ]
+    ├── Nginx (Web Server)
+    │     - Serves static assets (HTML, CSS, JS, images)
+    │     - Forwards dynamic requests to the application server
+    |
+    ├── Application Server (e.g., PHP-FPM, Node.js, Python WSGI)
+    │     - Runs business logic using application files
+    │     - Queries MySQL for data
+    |
+    ├── Application Files (Code Base)
+    │     - Routes, controllers, templates, configs
+    |
+    └── MySQL Database
+          - Stores users, sessions, posts, transactions, etc.
